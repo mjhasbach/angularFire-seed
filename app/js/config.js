@@ -4,7 +4,10 @@
 angular.module('myApp.config', [])
 
    // version of this seed app
-   .constant('version', '0.1')
+   .constant('version', '0.2')
+
+    // current AngularJS version
+    .constant('angularversion', angular.version.full)
 
    // your Firebase URL goes here
    .constant('FBURL', 'https://INSTANCE.firebaseio.com');
